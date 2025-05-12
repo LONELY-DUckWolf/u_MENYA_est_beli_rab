@@ -1,0 +1,103 @@
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+
+    background-color: #1f1f1f;
+}
+
+
+.click {
+    background: #000;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-top: 250px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(148, 0, 0);
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+
+    }
+    50% {
+      transform: scale(1.1);
+
+    }
+    100% {
+      transform: scale(1);
+
+    }
+  }
+
+
+
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px #00ffff;
+    background-color: #f0f8ff;
+}
+
+
+button {
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: rgb(21, 2, 105);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: aqua;
+}
+
+button:hover {
+    background-color: rgb(53, 53, 53);
+    transform: scale(1.03);
+}
